@@ -9,7 +9,7 @@
   "scripts": {
     "build": "parcel build src/useElementVisibility.ts",
     "start": "parcel example/index.html",
-    "docs": "parcel build example/index.html -d docs --public-url ./react-use-element-visibility/"
+    "docs": "parcel build example/index.html -d docs --public-url ./"
   },
   "devDependencies": {
     "@emotion/core": "^10.0.17",
