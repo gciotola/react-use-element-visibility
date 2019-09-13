@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "strict": true,
+    "target": "es5",
+    "inlineSourceMap": false,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "lib": ["es2017", "esnext", "dom"],
+    "types": ["node"],
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types"],
+
+    /* Strict Type-Checking Options */
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Debugging Options */
+    "traceResolution": false,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "pretty": true,
+    "noErrorTruncation": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"],
+  "compileOnSave": false
+}

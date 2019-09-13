@@ -1,0 +1,32 @@
+{
+  "name": "react-use-element-visibility",
+  "version": "1.0.0",
+  "description": "A React Hook to track visibility of an element in viewport",
+  "main": "src/index.ts",
+  "repository": "https://github.com/gciotola/react-use-element-visibility.git",
+  "author": "Giuseppe Ciotola",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "parcel build src/useElementVisibility.ts",
+    "start": "parcel example/index.html"
+  },
+  "devDependencies": {
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "@types/lodash": "^4.14.138",
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "lodash": "^4.17.15",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-immutable": "^6.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.6.3"
+  }
+}
