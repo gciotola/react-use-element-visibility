@@ -1,5 +1,4 @@
-// tslint:disable:no-submodule-imports
-import throttle from 'lodash/throttle'
+import { throttle } from 'lodash'
 import { useEffect, useState } from 'react'
 
 type ScrollYPosition = number
