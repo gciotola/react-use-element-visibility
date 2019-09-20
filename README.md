@@ -1,6 +1,8 @@
-# useElementVisibility - A custom react hook
+# useElementVisibility - A custom React Hook
 
-A blazing fast custom React hook to track visibility of an DOM element in browser viewport.
+![Typescript](https://img.shields.io/npm/types/react-use-element-visibility)
+
+A blazing fast custom React hook to track visibility of a DOM element in browser viewport.
 
 This is usefull to know if an element is
 
@@ -8,7 +10,9 @@ This is usefull to know if an element is
 - partially visibile
 - above viewport
 - below viewport
+- and more...
 
+Have a look a the demo and try to adjust the dynamic offset:
 [DEMO](https://gciotola.github.io/react-use-element-visibility/)
 
 ## Install
@@ -73,7 +77,7 @@ A detailed example can be found in the example folder
 - `offsetTop`: in case you need to deal with a fixed element on top of you viewport (example a fixed navbar)
 - `throttleMs`: number in milliseconds to throttle the scollbar event hook
 
-## Typescript
+## TypeScript
 
 Full TypeScript support
 

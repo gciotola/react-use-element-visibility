@@ -1,6 +1,6 @@
 {
   "name": "react-use-element-visibility",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React Hook to track visibility of an element in viewport",
   "repository": "https://github.com/gciotola/react-use-element-visibility.git",
   "author": "Giuseppe Ciotola",
