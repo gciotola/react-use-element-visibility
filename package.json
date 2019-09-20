@@ -1,13 +1,14 @@
 {
   "name": "react-use-element-visibility",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React Hook to track visibility of an element in viewport",
-  "main": "src/useElementVisibility/index.ts",
   "repository": "https://github.com/gciotola/react-use-element-visibility.git",
   "author": "Giuseppe Ciotola",
   "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
-    "prepare": "tsc -d --outFile lib/useElementVisibility.js --module amd",
+    "prepare": "tsc -d --outDir lib",
     "start": "parcel example/index.html",
     "docs": "parcel build example/index.html -d docs --public-url ./",
     "test": "echo \"No test specified\""
@@ -17,17 +18,20 @@
     "@emotion/styled": "^10.0.17",
     "@types/lodash": "^4.14.138",
     "@types/node": "^12.7.5",
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.6",
     "lodash": "^4.17.15",
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.18.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.8.6",
     "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-immutable": "^6.0.1",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "lodash": "^4.17.15"
   }
 }
