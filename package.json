@@ -2,14 +2,15 @@
   "name": "react-use-element-visibility",
   "version": "1.0.0",
   "description": "A React Hook to track visibility of an element in viewport",
-  "main": "src/index.ts",
+  "main": "src/useElementVisibility/index.ts",
   "repository": "https://github.com/gciotola/react-use-element-visibility.git",
   "author": "Giuseppe Ciotola",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build src/useElementVisibility.ts",
+    "prepare": "tsc -d --outFile lib/useElementVisibility.js --module amd",
     "start": "parcel example/index.html",
-    "docs": "parcel build example/index.html -d docs --public-url ./"
+    "docs": "parcel build example/index.html -d docs --public-url ./",
+    "test": "echo \"No test specified\""
   },
   "devDependencies": {
     "@emotion/core": "^10.0.17",

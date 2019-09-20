@@ -1,0 +1,9 @@
+.vscode/
+node_modules/
+dist/
+docs/
+.gitignore
+.prettierrc.json
+tsconfig.json
+tslint.json
+yarn.lock
